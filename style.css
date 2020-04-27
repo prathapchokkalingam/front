@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+}
+.header{
+    height: 50px;
+    width: 1000px;
+    background-color: aqua;
+    margin: 0 auto;
+    /* margin-top:0;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto; */ 
+    /* These above four lines can be simply written as margin: 0 auto; */
+    
+}
+.logo{
+
+    float: left;
+    padding: 10px;
+}
+.selection ul li{
+    float: right;
+    list-style: none;
+    padding: 10px;
+}
+.selection ul li a{
+    text-decoration: none;
+}
+.selection ul li a:hover{
+    color: rgb(255, 72, 0);
+    
+}
+.img{
+    height: 400px;
+    width: 1000px;
+    margin:0 auto;
+}
+.img img{
+    width: 1000px;
+    height: 400px;
+    /* margin:0 auto; */
+    padding-top: 10px;
+    
+}
+.content{
+max-width: 1000px;
+background-color: burlywood;
+margin: 0 auto;
+}
+.footer{
+    text-align: center;
+    width: 1000px;
+    background-color: aqua;
+    margin: 0 auto;
+}
