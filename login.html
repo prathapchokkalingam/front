@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,25 +20,17 @@
         </div>
     </div>
     <div class="form">
-        <form action="next.html" method="post">
-            <h3>All fields are mandatory</h3>
-            <p>Name</p>
-            <input type="text" name="name" placeholder="Enter Your Name" required>
+        <form action="next.html" method="login">
             <p>Email</p>
-            <input type="email" name="email" placeholder="Enter Your Email" required>
-            <P>Number</P>
-            <input type="number" name="number" placeholder="Enter Your Mobile Number" required>
-            <p>Address</p>
-            <textarea name="address" placeholder="Enter Your Current Address" required rows="5"></textarea>
+            <input type="email" name="email" placeholder="Enter Your Registered Email" required>
             <p>Password</p>
-            <input type="password" name="password" placeholder="Enter Your password" required>
+            <input type="password" name="password" placeholder="Enter Your Password" required>
             <br><br>
-            <button name="reg" type="submit">Register</button>
+            <button type="submit" name="log">Login</button>
         </form>
     </div>
     <div class="footer">
         <p>copyright &copy; prathap</p>
     </div>
-    
 </body>
 </html>
