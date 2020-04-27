@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            Front End
+        </div>
+        <div class="selection">
+            <ul>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="reg.html">Registration</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="form">
+        <form action="next.html">
+            <h3>All fields are mandatory</h3>
+            <p>Name</p>
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <P>Number</P>
+            <input type="number" name="number" placeholder="Enter Your Mobile Number" required>
+            <p>Address</p>
+            <textarea name="address" placeholder="Enter Your Current Address" required rows="5"></textarea>
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Your password" required>
+            <br><br>
+            <button name="reg" type="submit">Register</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>copyright &copy; prathap</p>
+    </div>
+    
+</body>
+</html>

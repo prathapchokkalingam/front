@@ -48,8 +48,36 @@ background-color: burlywood;
 margin: 0 auto;
 }
 .footer{
+    height: 50px;
     text-align: center;
     width: 1000px;
     background-color: aqua;
     margin: 0 auto;
+}
+.form{
+    padding-top: 20px;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.form h3{
+    color: red;
+}
+
+.form p{
+font-size: 30px;
+}
+.form input, textarea{
+    width: 200px;
+}
+.form button{
+    width: 100px;
+    padding-top: 10px;
+    color: cyan;
+    background-color: darkorange;
+}
+.form button:hover{
+    background-color: red;
+    color: chartreuse;
+    padding: 15px;
 }
